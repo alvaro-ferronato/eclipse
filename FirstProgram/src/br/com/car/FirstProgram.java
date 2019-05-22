@@ -9,11 +9,11 @@ public class FirstProgram {
 		
 		Scanner keyb = new Scanner(System.in);
 		
-		System.out.print("Informe a Marca do Carro:" );
+		System.out.println("Informe a Marca do Carro:" );
 		String b = keyb.nextLine();;
-		System.out.print("Informe o Modelo do Carro:" );
+		System.out.println("Informe o Modelo do Carro:" );
 		String m = keyb.nextLine();
-		System.out.print("Informe o Ano do Carro:" );
+		System.out.println("Informe o Ano do Carro:" );
 		int y = keyb.nextInt();		
 
 		Car car = new Car(b, m, y);
