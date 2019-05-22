@@ -9,6 +9,8 @@ public class FirstProgram {
 		
 		Scanner keyb = new Scanner(System.in);
 		
+		
+		System.out.println("\nProjeto Carro\n" );
 		System.out.println("Informe a Marca do Carro:" );
 		String b = keyb.nextLine();;
 		System.out.println("Informe o Modelo do Carro:" );
@@ -29,14 +31,14 @@ public class FirstProgram {
 			
 			if (x.equals("A")) {
 				car.accelerate();
-				System.out.println("A velocidade atual È:" + car.getSpeed());
+				System.out.println("A velocidade atual √©:" + car.getSpeed());
 			} else if (x.equals("F")) {
 				car.brake();
-				System.out.println("A velocidade atual È:" + car.getSpeed());				
+				System.out.println("A velocidade atual √©:" + car.getSpeed());				
 			} else if (x.equals("P")) {
 				System.out.println("O carro foi parado !!!!");		
 			} else {
-				System.out.println("OpÁ„o Inv·lida!!!!!");
+				System.out.println("Op√ß√£o Inv√°lida!!!!!");
 				System.out.println(x);
 			}
 		
